@@ -28,7 +28,7 @@ module.exports = {
   LANG: process.env.LANG || 'EN',
   SETVV: process.env.SETVV || 'DM',
   ELEVENLABS: process.env.ELEVENLABS,
-  HANDLERS: process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || '/',
+  HANDLERS: process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || '/'.,
   ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
   READ_MSG: toBool(process.env.READ_MSG || "false"),
   BRANCH: "main",
